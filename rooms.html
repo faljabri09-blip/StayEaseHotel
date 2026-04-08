@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> StayEase Hotel</title>
+
+    <link rel="stylesheet" href="./style.css/all.min.css">
+    <link rel="stylesheet" href="./style.css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css/darkmoode.css">
+    <link rel="stylesheet" href="./style.css/style.css">
+</head>
+<body>
+   
+
+     <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">StayEase Hotel</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Rooms</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+        <button id="darkModeToggle" class="btn btn-outline-light ms-3">🌙</button>
+      </div>
+    </div>
+  </nav>
+
+
+   <!-- Hero Banner -->
+  <header class="hero d-flex align-items-center justify-content-center text-center text-white">
+    <div class="overlay"></div>
+    <div class="content">
+      <h1>Welcome to StayEase Hotel</h1>
+      <p>Book your perfect stay today</p>
+      <a href="#rooms" class="btn btn-primary me-2">Explore Rooms</a>
+      <a href="#booking" class="btn btn-light">Book Now</a>
+    </div>
+  </header>
+
+    <!-- Featured Rooms -->
+  <section id="rooms" class="container my-5">
+    <h2 class="text-center mb-4">Featured Rooms</h2>
+    <div class="row" id="featuredRooms">
+      <!-- Cards will be injected here via JS -->
+    </div>
+  </section>
+
+
+ <!-- Rooms Section -->
+  <div class="container my-5">
+    <h2 class="text-center mb-4">Our Rooms</h2>
+    <div class="row" id="roomsContainer">
+      <!-- الغرف ستظهر هنا -->
+    </div>
+  </div>
+
+
+
+  <!-- Amenities -->
+  <section class="bg-light py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">Amenities</h2>
+      <div class="row">
+        <div class="col"><i class="bi bi-wifi"></i><p>Free Wi-Fi</p></div>
+        <div class="col"><i class="bi bi-cup-hot"></i><p>Restaurant</p></div>
+        <div class="col"><i class="bi bi-car-front"></i><p>Parking</p></div>
+        <div class="col"><i class="bi bi-water"></i><p>Swimming Pool</p></div>
+        <div class="col"><i class="bi bi-heart-pulse"></i><p>Gym & Spa</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>© 2026 StayEase Hotel | Contact: info@StayEase.hotel.com</p>
+    <div>
+      <a href="#" class="text-white me-2">Facebook</a>
+      <a href="#" class="text-white me-2">Instagram</a>
+      <a href="#" class="text-white">Twitter</a>
+    </div>
+  </footer>
+
+    <script src="./js/rooms.js"></script>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
